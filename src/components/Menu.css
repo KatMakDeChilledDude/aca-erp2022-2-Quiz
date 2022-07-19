@@ -1,0 +1,46 @@
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  .container{
+    border-radius: 5px;
+    background-color: white;
+    padding: 180px;
+  }
+
+
+  /* Float cancel and delete buttons and add an equal width */
+  .cancelbtn, .startbtn{
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtn {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .startbtn {
+       width: 100%;
+    }
+  }

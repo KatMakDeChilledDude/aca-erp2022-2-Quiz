@@ -11,12 +11,7 @@ import './Questions.css';
 
         const [que, setQue] = useState([
 
-        
-
-
-
-              { q: "What is the git command that downloads your repository from GitHub to your computer?", id: 0, ans1: "git clone", ans2: "git fork", ans3: "git commit", ans4: "git push" },
-              { q: "What is the git command that is used to change directories?", id: 1, ans1: "cd", ans2: "a", ans3: "create", ans4: "ls"},
+              { q: "What is the git command that downloads your repository from GitHub to your computer?", id: 1, ans1: "git clone", ans2: "git fork", ans3: "git commit", ans4: "git push" },
               { q: "npm start command is used to?", id: 2, ans1: "run the app while developing", ans2: "create a directory", ans3: "create a new project", ans4: "create a folder"},
               { q: "Which of the following commands used to show all parameters in git?", id: 3, ans1: "git config --list", ans2: "git config -a", ans3: "git config --all", ans4: " git config --parameters --list" },
               { q: "Which of the following commands used to return to the master branch", id: 4, ans1: "git checkout master", ans2: "git checkout branche", ans3: "git checkout -b master", ans4: " git checkout origin" },
@@ -58,29 +53,25 @@ import './Questions.css';
               { q: "The main objectives of Git are -", id: 34, ans1: "All below", ans2: "speed", ans3: "support for distributed non-linear workflows", ans4: "data integrity" },
               { q: "What language is used in Git?", id: 35, ans1: "C", ans2: "JAVA", ans3: "C++", ans4: "HTML" },
               { q: "Git command .................... used to give tags to the specified commit.", id: 36, ans1: "git tag [commitID]", ans2: "git show [commitID]", ans3: "git checkout [branch name]", ans4: "git rm [file]" },
-              { q: "How do I add files to a commit?", id: 15, ans1: "git add", ans2: "git commit", ans3: "git stage", ans4: "git reset" },
-              { q: "How to save the current state of your code in git?", id: 16, ans1: "git commit", ans2: "git stage", ans3: "git add", ans4: "git init" },
-              { q: "What shortcut to stage all the changes you have?", id: 17, ans1: " git commit ", ans2: "git commit add", ans3: "git push -am “Message”", ans4: "git add" },
+              { q: "How do I add files to a commit?", id: 37, ans1: "git add", ans2: "git commit", ans3: "git stage", ans4: "git reset" },
+              { q: "How to save the current state of your code in git?", id: 38, ans1: "git commit", ans2: "git stage", ans3: "git add", ans4: "git init" },
+              { q: "What shortcut to stage all the changes you have?", id: 39, ans1: " git commit ", ans2: "git commit add", ans3: "git push -am “Message”", ans4: "git add" },
 
-              { q: " ____________ command is useful for getting a high-level overview of the project history.", id: 22, ans1: "git log --oneline", ans2: "git reset --hard", ans3: "git log --author=''", ans4: "git rebase" },
-              { q: " Which of the following command line environment is used for interacting with Git ?", id: 28, ans1: "Git Bash", ans2: "Git Hub", ans3: "Git Boot", ans4: "Git Lab" },
-              { q: "If you want to make radical changes to your team’s project and don’t want to impact the rest of the team, you should implement your changes in -", id: 29, ans1: "None of the above", ans2: "the trunk", ans3: "a tag", ans4: "the root" },
-              { q: "What command is used to upload your code and changes to GitHub?", id: 11, ans1: "git push", ans2: "git status", ans3: "git upload", ans4: "git add" },
-              { q: "How to initialize the local repository with git?", id: 12, ans1: "git init", ans2: "git start", ans3: "git pull", ans4: "git clean" },
-              { q: "How do I get code from another repository on GitHub?", id: 13, ans1: "Forking through the GitHub interface", ans2: "git pull-request", ans3: "git fork", ans4: "git clone" },
-              { q: "npm start command is used to?", id: 2, ans1: "run the app while developing", ans2: "create a directory", ans3: "create a new project", ans4: "create a folder"},
-              { q: "Which of the following commands used to show all parameters in git?", id: 3, ans1: "git config --list", ans2: "git config -a", ans3: "git config --all", ans4: " git config --parameters --list" },
-              { q: "How to check the status of your local repository since your last commit?", id: 14, ans1: "git status", ans2: "git diff", ans3: "git commit", ans4: "git check" },
-              { q: "How do I add files to a commit?", id: 15, ans1: "git add", ans2: "git commit", ans3: "git stage", ans4: "git reset" }
+              { q: " ____________ command is useful for getting a high-level overview of the project history.", id: 40, ans1: "git log --oneline", ans2: "git reset --hard", ans3: "git log --author=''", ans4: "git rebase" },
+              { q: " Which of the following command line environment is used for interacting with Git ?", id: 41, ans1: "Git Bash", ans2: "Git Hub", ans3: "Git Boot", ans4: "Git Lab" },
+              { q: "If you want to make radical changes to your team’s project and don’t want to impact the rest of the team, you should implement your changes in -", id: 42, ans1: "None of the above", ans2: "the trunk", ans3: "a tag", ans4: "the root" },
+              { q: "What command is used to upload your code and changes to GitHub?", id: 43, ans1: "git push", ans2: "git status", ans3: "git upload", ans4: "git add" },
+              { q: "How to initialize the local repository with git?", id: 44, ans1: "git init", ans2: "git start", ans3: "git pull", ans4: "git clean" },
+              { q: "How do I get code from another repository on GitHub?", id: 45, ans1: "Forking through the GitHub interface", ans2: "git pull-request", ans3: "git fork", ans4: "git clone" },
+              { q: "npm start command is used to?", id: 46, ans1: "run the app while developing", ans2: "create a directory", ans3: "create a new project", ans4: "create a folder"},
+              { q: "Which of the following commands used to show all parameters in git?", id: 47, ans1: "git config --list", ans2: "git config -a", ans3: "git config --all", ans4: " git config --parameters --list" },
+              { q: "How to check the status of your local repository since your last commit?", id: 48, ans1: "git status", ans2: "git diff", ans3: "git commit", ans4: "git check" },
+              { q: "How do I add files to a commit?", id: 49, ans1: "git add", ans2: "git commit", ans3: "git stage", ans4: "git reset" },
+              { q: "What is the git command that is used to change directories?", id: 50, ans1: "cd", ans2: "a", ans3: "create", ans4: "ls"}
         ]);
 
         const onWrong = () => {
             setScore (score + 0);
-
-        }
-
-        const onNextQuestion = () => {
-             {setCurrentQuestion(currentQuestion + 1)} 
 
         }
               
@@ -103,7 +94,7 @@ import './Questions.css';
 
 <form className='form'>
       
-<h4> Question {currentQuestion + 1} </h4> 
+<h4> Question {choice.id} </h4> 
       <fieldset>
         <legend><i>{choice.q}</i></legend>
         <p>

@@ -56,13 +56,3 @@
     border: none;
     right: 10;
   }
-
-  @media screen and (max-width: 500px) {
-    .wrapper {
-       width: 40%;
-    }
-
-    .container {
-      width: 100%;
-   }
-  }

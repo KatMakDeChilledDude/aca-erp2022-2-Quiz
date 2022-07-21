@@ -53,7 +53,7 @@
   }
 
     @media screen and (max-width: 500px) {
-    .clearfix {
+    .clearfix, .container {
        width: 30%;
     }
   }

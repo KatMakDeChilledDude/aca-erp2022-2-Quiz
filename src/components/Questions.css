@@ -58,7 +58,11 @@
   }
 
   @media screen and (max-width: 500px) {
-    .wrapper, .container {
-       width: 30%;
+    .wrapper {
+       width: 40%;
     }
+
+    .container {
+      width: 100%;
+   }
   }

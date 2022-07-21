@@ -4,7 +4,6 @@ import './Questions.css';
     const Questions = () => {
     
     const [score, setScore] = useState(0);
-    const [showSummary, setShowSummary] = useState(false);
     const [showScore, setShowScore] = useState(false);
 
         const [que, setQue] = useState([

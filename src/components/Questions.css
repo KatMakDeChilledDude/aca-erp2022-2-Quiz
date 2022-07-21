@@ -32,7 +32,7 @@
 
 
   .btnSave{
-    margin: 5px auto;
+    margin: 8px 0;
     width: 40%;
     height: 30px;
     background-color: rgb(196, 139, 101);
@@ -63,3 +63,4 @@
        width: 30%;
     }
   }
+  

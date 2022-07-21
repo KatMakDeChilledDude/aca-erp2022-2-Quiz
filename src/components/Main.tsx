@@ -16,7 +16,7 @@ function Main() {
 <div className='side'>
   <div className='menu'>
     <div className='menuitem'><button type="button" className="startbtn" onClick={ () => setShowQuestions(true)} >Start Quiz</button></div>
-    <div className='menuitem'><button type="button" className="cancelbtn" onClick={ () => setShowQuestions(false)} >Restart</button></div>
+    <div className='menuitem'><button type="button" className="cancelbtn" onClick={ () => setShowQuestions(false)} >Close Quiz</button></div>
                     
   </div>
 

@@ -2,11 +2,9 @@ import React, { useState, ChangeEvent, MouseEvent } from 'react';
 import './Questions.css';
 
     const Questions = () => {
-
     
     const [score, setScore] = useState(0);
-    const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [showFinish, setFinish] = useState(true);
+    const [showSummary, setShowSummary] = useState(false);
     const [showScore, setShowScore] = useState(false);
 
         const [que, setQue] = useState([
@@ -77,11 +75,6 @@ import './Questions.css';
               
         const onScore = () => {
             setScore (score + 2);
-
-            if(currentQuestion + 1 < que.length)
-            {
-                    setFinish(true);
-            }
         }
 
   return <>
@@ -126,14 +119,24 @@ import './Questions.css';
 
 <button type="button" className="btnSave" onClick={ () => setShowScore(true)}> Submit </button>
 {showScore  && 
-<div> <h4>YOUR SCORE IS <button className="btnScore"> <b>{score}</b></button></h4> </div>
+<div> <h4>YOUR SCORE IS <button className="btnScore"> <b>{score}</b></button></h4> 
+<button>Bak To Menu</button>
+<h3>{que.length} Questions Summmary </h3> 
+{que.map((solution) => (
+    <div key={solution.id}> 
+    <p><h4>Question {solution.id}</h4>
+    <h5> {solution.q}</h5></p>
+    <p><u>Answer:</u><i> {solution.ans1}</i></p>
+    </div>
+))
 }
+<button>Bak To Menu</button>
+</div>
+
+    }
 
 </div>
-    
-   
-
-  </>
+</>
 
 }
 

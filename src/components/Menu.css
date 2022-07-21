@@ -40,7 +40,7 @@
   }
   
   @media screen and (max-width: 300px) {
-    .cancelbtn, .startbtn {
+    .clearfix, .container, .cancelbtn, .startbtn {
        width: 100%;
     }
   }

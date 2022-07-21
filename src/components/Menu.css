@@ -39,8 +39,8 @@
     color: black;
   }
   
-  @media screen and (max-width: 300px) {
-    .clearfix, .container, .cancelbtn, .startbtn {
-       width: 80%;
+  @media screen and (max-width: 500px) {
+    .clearfix, .container {
+       width: 30%;
     }
   }

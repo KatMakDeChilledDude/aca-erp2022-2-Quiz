@@ -120,7 +120,6 @@ import './Questions.css';
 <button type="button" className="btnSave" onClick={ () => setShowScore(true)}> Submit </button>
 {showScore  && 
 <div> <h4>YOUR SCORE IS <button className="btnScore"> <b>{score}</b></button></h4> 
-<button>Bak To Menu</button>
 <h3>{que.length} Questions Summmary </h3> 
 {que.map((solution) => (
     <div key={solution.id}> 
@@ -130,7 +129,6 @@ import './Questions.css';
     </div>
 ))
 }
-<button>Bak To Menu</button>
 </div>
 
     }

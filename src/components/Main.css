@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+
+  .top {
+    text-align: center;
+    color: white;
+    background-color: #04AA6D;
+    padding:0px;
+  }
+
+  .side{
+    
+    overflow:auto;
+    
+  }
+
+  .cancelbtn {
+    background-color: rgb(223, 143, 143);
+    color: rgb(247, 247, 247);
+  }
+
+  .cancelbtn:hover {
+    background-color: rgb(223, 21, 21);
+  }
+
+  .startbtn {
+    background-color: #04AA6D;
+    color: rgb(247, 247, 247);
+  }
+
+  .startbtn:hover {
+    background-color: #67c41c;
+  }
+  
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}

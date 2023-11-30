@@ -7,6 +7,14 @@ function Main() {
 
   const [showQuestions, setShowQuestions] = useState(false);
 
+    const handleChange = (event: ChangeEvent) => {
+    // Handle change logic if needed
+  };
+
+  const handleClick = (event: MouseEvent) => {
+    // Handle click logic if needed
+  };
+
   return <>
 <div className='top'>
   <h1>Welcome To Africa Code Academy</h1>
